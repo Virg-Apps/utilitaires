@@ -1,6 +1,60 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
+body {
+    height: 100vh;
+}
+
+/** Layout **/
+#wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-areas:
+        'menu header'
+        'menu main';
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+#wrapper > nav {
+    grid-area: menu;
+    background-color: #343a40;
+    color: #fff;
+}
+#wrapper > nav header {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    border-bottom: 1px solid #4b545c;
+}
+#wrapper > nav header h1 {
+    margin: 0;
+}
+#wrapper > nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#wrapper > nav ul li a {
+    color: #b7b8ce;
+    text-decoration: none;
+}
+#wrapper > nav ul li a:hover {
+    color: #fff;
+}
+
+#wrapper > nav header {
+    grid-area: header
+}
+
+/** Formulaires **/
+.form-field {
+    margin: 5px 0;
+}
+
+main {
+    grid-area: main
+}
+
 
 button, select, html, textarea, input {
     font-family: Roboto,"Helvetica Neue",sans-serif;

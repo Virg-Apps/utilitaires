@@ -1,6 +1,6 @@
 <nav>
     <header>
-        <h1>Backoffice</h1>
+        <h1>Utilitaires</h1>
     
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path opacity="0.5" d="M14.2657 11.4343L18.45 7.25C18.8642 6.83579 18.8642 6.16421 18.45 5.75C18.0358 5.33579 17.3642 5.33579 16.95 5.75L11.4071 11.2929C11.0166 11.6834 11.0166 12.3166 11.4071 12.7071L16.95 18.25C17.3642 18.6642 18.0358 18.6642 18.45 18.25C18.8642 17.8358 18.8642 17.1642 18.45 16.75L14.2657 12.5657C13.9533 12.2533 13.9533 11.7467 14.2657 11.4343Z" fill="currentColor"></path>
@@ -8,46 +8,6 @@
         </svg>
     </header>
     <ul>
-        <li>Tableau de bord</li> 
-        <li><a href="/concours/ride-and-fun">Ride & Fun</a></li>
-        <li>
-            <ul>
-                <li><a href="/concours/ride-and-fun/developpement-durable">Développement durable</a></li>
-                <li><a href="/concours/ride-and-fun/epreuves">Épreuves</a></li>
-                <li><a href="/concours/ride-and-fun/notifications">Notifications</a></li>
-            </ul>
-        </li>
-        <li><a href="/aide">Aide</a></li>
+        <li><a href="/sante">Santé</a></li>
     </ul>
 </nav>
-
-<style>
-    nav {
-        grid-area: menu;
-        background-color: #2a3042;
-        color: #fff;
-    }
-    nav header {
-        display: flex;
-        justify-content: space-around;
-        background-color: #1a1a27;
-        padding: 12px 0;
-    }
-    nav header h1 {
-        margin: 0;
-    }
-    nav ul {
-        list-style-type: none;
-    }
-    nav ul li a {
-        color: #b7b8ce;
-        text-decoration: none;
-    }
-    nav ul li a:hover {
-        color: #fff;
-    }
-
-    header {
-        grid-area: header
-    }
-</style>
