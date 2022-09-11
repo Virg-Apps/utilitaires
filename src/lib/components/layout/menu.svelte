@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { base } from '$app/paths';
+</script>
+
 <nav>
     <header>
         <h1>Utilitaires</h1>
@@ -8,6 +12,6 @@
         </svg>
     </header>
     <ul>
-        <li><a href="/sante">Santé</a></li>
+        <li><a href="/{base}/sante">Santé</a></li>
     </ul>
 </nav>
