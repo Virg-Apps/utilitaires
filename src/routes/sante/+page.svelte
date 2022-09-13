@@ -83,8 +83,8 @@
     <span>Mon IMC est de {Intl.NumberFormat('fr-fr', {minimumFractionDigits: 0, maximumFractionDigits: 2}).format(imc)}</span>
 </div>
 <div>
-    <span>Je dépense {Intl.NumberFormat('fr-fr', {minimumFractionDigits: 0, maximumFractionDigits: 0}).format(calories)} k calories par jour</span>
+    <span>Je dépense {Intl.NumberFormat('fr-fr', {minimumFractionDigits: 0, maximumFractionDigits: 0}).format(calories)} k calories par jour (formule de Black et al)</span>
 </div>
 <div>
-    <span>Mon poids idéal est de {Intl.NumberFormat('fr-fr', {minimumFractionDigits: 0, maximumFractionDigits: 0}).format(poidsIdeal)} kg</span>
+    <span>Mon poids idéal est de {Intl.NumberFormat('fr-fr', {minimumFractionDigits: 0, maximumFractionDigits: 0}).format(poidsIdeal)} kg (formule de Pek)</span>
 </div>
